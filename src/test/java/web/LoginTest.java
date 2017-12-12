@@ -24,6 +24,7 @@ WebDriver driver;
 	
 	driver.findElement(By.xpath(".//*[@id='email']")).sendKeys("manisha.shelke123@gmail.com");
 	driver.findElement(By.xpath(".//*[@id='pass']")).sendKeys("mani@Prafull");
+	driver.findElement(By.xpath(".//*[@id='loginbutton']")).click();
 	//element=driver.findElement(By.xpath(".//*[@id='pass']"));
 	//element.click();
 	}
